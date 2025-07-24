@@ -23,7 +23,7 @@ const firmSchema = new mongoose.Schema({
         type: [
             {
                 type: String,
-                enum: ['North-Indian', 'South-Indian', 'Chineese', 'bakery']
+                enum: ['North-Indian', 'South-Indian', 'Chinese', 'Bakery']
             }
         ]  
     },
